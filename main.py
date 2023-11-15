@@ -68,7 +68,7 @@ def chord_method(equation, a, b, e):
             print(c2)
             return c2
 
-        if (a_values < 0 and c_values > 0) or (a_values > 0 and c_values < 0):
+        if (a_values < 0 < c_values) or (a_values > 0 > c_values):
             b = c2
         else:
             a = c2
