@@ -24,7 +24,7 @@ def chord_method(equation, a, b, e):
 
     # первірка чи існує більше 1 кореня
     if derivative_values[0] * derivative_values[1] < 0:
-        raise Exception("На вказаному відрізку є можливість більше одного кореня.")
+        raise Exception("На вказаному відрізку більше одного кореня.")
 
     k = 0
 
